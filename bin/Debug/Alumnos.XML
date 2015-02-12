@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Alumnos</name>
+    </assembly>
+    <members>
+        <member name="T:Alumnos.Alumno">
+            <summary>
+            Clase que muestra un alumno
+            </summary>
+        </member>
+        <member name="F:Alumnos.Alumno.nombre">
+            <summary>
+            Representa el nombre del alumno
+            </summary>
+        </member>
+        <member name="F:Alumnos.Alumno.nota">
+            <summary>
+            Representa la nota del alumno
+            </summary>
+        </member>
+        <member name="M:Alumnos.Alumno.mostrardatos">
+            <summary>
+            Función que muestra los datos de los alumnos
+            </summary>
+            <returns>Lista de alumnos con su calificación</returns>
+        </member>
+        <member name="P:Alumnos.Alumno.Nombre">
+            <summary>
+            Obtiene y devuelve el nombre y apellidos del alumno
+            </summary>
+            <value>El nombre y los apellidos</value>
+        </member>
+        <member name="P:Alumnos.Alumno.Nota">
+            <summary>
+            Obtiene y devuelve la nota del alumno
+            La nota debe estar entre 0 y 10
+            </summary>
+            <value>La nota</value>
+        </member>
+        <member name="P:Alumnos.Alumno.Aprobado">
+            <summary>
+            Devuelve verdadero si la nota es mayor a 5 y false en caso contrario
+            </summary>
+        </member>
+        <member name="T:Alumnos.Alumnos">
+            <summary>
+            Representa una lista con alumnos en cada posición del Arraylist
+            </summary>    
+        </member>
+        <member name="F:Alumnos.Alumnos.listaAlumnos">
+            <summary>
+            Crea el Arraylist para guardar los alumnos
+            </summary>        
+        </member>
+        <member name="M:Alumnos.Alumnos.AgregarAlumno(Alumnos.Alumno)">
+            <summary>
+            Agrega un nuevo alumno a la lista
+            </summary>
+            <param name="alumno">Alumno a introducir</param>
+        </member>
+        <member name="M:Alumnos.Alumnos.MediaNotas">
+            <summary>
+            Calcula la media de las notas de todos los alumnos
+            </summary>
+            <returns>El valor de la nota media</returns>
+        </member>
+        <member name="P:Alumnos.Alumnos.ListaAlumnos">
+            <summary>
+            Retorna la lista de alumnos
+            </summary>
+        </member>
+        <member name="F:Alumnos.Form1.components">
+            <summary>
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:Alumnos.Form1.Dispose(System.Boolean)">
+            <summary>
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario.</param>
+        </member>
+        <member name="M:Alumnos.Form1.InitializeComponent">
+            <summary>
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+        <member name="M:Alumnos.Program.Main">
+            <summary>
+            Punto de entrada principal para la aplicación.
+            </summary>
+        </member>
+        <member name="T:Alumnos.Properties.Resources">
+            <summary>
+              Clase de recurso fuertemente tipado para buscar cadenas traducidas, etc.
+            </summary>
+        </member>
+        <member name="P:Alumnos.Properties.Resources.ResourceManager">
+            <summary>
+              Devuelve la instancia ResourceManager almacenada en caché utilizada por esta clase.
+            </summary>
+        </member>
+        <member name="P:Alumnos.Properties.Resources.Culture">
+            <summary>
+              Invalida la propiedad CurrentUICulture del subproceso actual para todas las
+              búsquedas de recursos usando esta clase de recursos fuertemente tipados.
+            </summary>
+        </member>
+    </members>
+</doc>
